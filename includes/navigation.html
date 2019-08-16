@@ -1,0 +1,25 @@
+<div class="nav">
+    <div class="max__container">
+        <div class="nav__container">
+            <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/sarah-logo.png"/>
+                    </a>
+                </div>
+                
+                <div class="nav__items">
+                    <div class="nav__item portfolio"><a href="index.html">PORTFOLIO</a></div>
+                    <div class="nav__item pastimes"><a href="pastimes.html">PASTIMES</a></div>
+                    <div class="nav__item profile"><a href="profile.html">PROFILE</a></div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    if (document.URL.indexOf("index") > -1) { $(".portfolio").addClass("current"); }
+    if (document.URL.indexOf("pastimes") > -1) { $(".pastimes").addClass("current"); }
+    if (document.URL.indexOf("profile") > -1) { $(".profile").addClass("current"); }
+</script>
+
+
